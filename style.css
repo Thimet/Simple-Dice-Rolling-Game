@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+
+.topic{
+    font-family: 'splash';
+    text-align: center;
+}
+
+.page{
+    width: 80%;
+    background-color:rgb(70, 48, 197);
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dice{
+    display: flex;
+    width: 45%;
+    margin: 10px auto;
+    padding: 25px;
+    justify-content: space-around;
+    background-color: rgb(24, 38, 38);
+    border-radius: 10px;
+}
+.dice img{
+    padding: 5px;
+    width:150px;
+}
+
+.topic{
+    font-size: 4em;
+}
+.btn{
+    display: flex;
+}
+.btn button{
+    border-radius: 5px;
+    padding:5px;
+    margin: 20px auto;
+    font-size: 2em;
+}
+
+.bottom{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+}
+.player img{
+    width: 140px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(48, 45, 52);
+    font-size: larger;
+    color:white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.info label{
+    padding: 5px;
+}
+
+.info div{
+    padding: 10px;
+    font-size: 45px;
+    background-color: rgba(105, 98, 98, 0.922);
+}
+
+.screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt{
+    padding: 30px 30px;
+    background-color: rgb(214, 85, 85);
+    border-radius: 10px;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    margin: 10px 0;
+    
+}
+
+.txtfields{
+    display:flex;
+    flex-direction:column;
+}
+
+.txtfields input{
+    margin:10px 0;
+}

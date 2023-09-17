@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="page">
+            <div class="topic">
+                ROLLING DICE
+            </div>
+            <div class="dice">
+                    <img src="img/start.png" alt="image1" id="dice_img1">
+                    <img src="img/start.png" alt="image2" id="dice_img2">
+            </div>
+            <div class="btn">
+                <button id="roll_btn1">START GAME</button>
+            </div>
+            <div class="bottom">
+                <div class="player">
+                    <img src="img/play1.png" >
+                    <div class="info">
+                        <label id="player1">Player 1</label>
+                        <div id="p1">0</div>
+                    </div>
+                </div>
+                <div class="screen">
+                    <div class="txt">
+                        <div id="sc">
+                            Player 1
+                        </div>
+                        <div id="sc2"></div>
+                         
+                    </div>
+                    <div class="txtfields">
+                        <label for="tf1">player1 name: </label>
+                        <input type="text" id="tf1">
+                        <label for="tf2">player2 name: </label>
+                        <input type="text" id="tf2">
+                        <button type="button" id="btn2">ENTER</button>
+                    </div>
+                    
+                </div>
+                <div class="player">
+                    <img src="img/play2.png" >
+                    <div class="info">
+                        <label id="player2">Player2</label>
+                        <div id="p2">0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="dice.js"></script>
+    </body>
+</html>
